@@ -50,7 +50,7 @@
 					<li><a href="#Announcements">Announcements</a></li>
 					<li><a href="#racing_info">Racing Info</a></li>
 					<li><a href="#directions_map">Maps</a></li>
-					<li><a href="">Race Day Check In</a></li>
+					<li><a href="#form">Race Day Check In</a></li>
 					<li><a href="#mailer"> Join Our Mailing List</a></li>
 				</ul>
 			</div><!-- /content -->
@@ -221,6 +221,68 @@
 			</div><!-- /footer -->
 		</div><!-- /End Page -->
 		
+		
+		
+	<div data-role="page" id="form" data-add-back-btn="true">
+			<div data-role="header" data-theme="c" id="header" >
+				<h1>Racer Check-in </h1>
+			</div>
+			<div data-role="content" data-theme="b">
+				<form method="#" rel="external" data-theme="c" action="">
+				<fieldset>
+					
+					<div data-role="fieldcontain">
+						<label for="nickname">Nick Name</label>
+						<input type="text" name="nickname">
+					</div>
+									
+					<div data-role="fieldcontain">
+						<label for="fullname">Full Name</label>
+						<input type="text" name="fullname"><br/>
+					</div>
+					
+					<div data-role="fieldcontain">
+						<label for="slider">Age</label>
+						<input type="range" name="slider" id="slider" value="18" min="0" max="100">
+					</div>
+					
+					<div data-role="fieldcontain">
+					<label for="flip-b">New to the Track?</label>
+						<select name="slider" id="flip-b" data-role="slider">
+							<option value="no">No</option>
+							<option value="yes">Yes</option>
+						</select> 
+					</div>
+					
+					<div data-role="fieldcontain" data-overlay-theme="a">
+					   <label for="select-choice-1" class="select">Racing Class:</label>
+					   <select  name="select-choice-1" id="select-choice-1">
+					   	 <option value="standard">Choose one:</option>
+					      <option value="standard">1/8th Scale Truck</option>
+					      <option value="rush">1/10th Scale Buggy</option>
+					      <option value="express">1/8th Scale 4X4 Buggy</option>
+					   </select>
+					</div>
+				
+				</fieldset>
+				<br>
+				<button type="submit" value="Save">Save Data</button>
+				</form>
+			</div>
+		       
+		       <!-- /content -->
+			
+		
+		
+		
+		
+		 	<div data-role="footer" data-theme="e" id="footer">
+				<h4>Raceway </h4>
+			</div><!-- /footer -->
+		</div><!-- /End Page -->
+		
+		
+		
 		<div id="directions_map" data-role="page" data-add-back-btn="true" data-theme="c">
 			<div data-role="header" data-theme="c">
 				<h1>Map to Shop</h1>
@@ -255,6 +317,8 @@
 			<h4>Raceway </h4>
 		</div><!-- /footer -->	
 		</div>
+		
+		
 			
 		<div id="mailer" data-role="page" data-add-back-btn="true" data-theme="c">
 			<div data-role="header" data-theme="d">
