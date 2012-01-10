@@ -17,6 +17,7 @@
 /* A
 -----------------------------------------------------------------------------------------------------------*/
 
+
 .ui-bar-a {
 	border: 1px solid #2e2e2e /*{a-bar-border}*/;
 	background: #2e2e2e /*{a-bar-background-color}*/;
@@ -190,7 +191,7 @@
 }
 
 .ui-bar-b .ui-link:visited {
-    color:  #2489CE  /*{b-bar-link-visited}*/;
+    color:  #FFFFFF  /*{b-bar-link-visited}*/;
 }
 
 .ui-bar-b,
