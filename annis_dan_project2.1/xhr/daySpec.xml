@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+ <Items>
+   
+   <item id="0">
+     <day>Sunday</day>
+     <list>
+       <task>Work on Report Cards</task>
+     </list>
+   </item>
+   
+   <item id="2">
+     <day>Monday</day>
+     <list>
+       <task>Sales Pizza Party</task>
+     </list>
+   </item>  
+   
+   <item id="3">
+     <day>Tuesday</day>
+     <list>
+       <task>Call Monitors</task>
+     </list>
+   </item>  
+    
+   <item id="4">
+     <day>Wednesday</day>
+     <list>
+       <task>Staff Meeting</task>
+     </list>
+   </item>  
+    
+   <item id="5">
+     <day>Thursday</day>
+     <list>
+       <task>Check Time Cards</task>
+     </list>
+   </item>  
+    
+   <item id="6">
+     <day>Friday</day>
+     <list>
+       <task>Approve Kronos Punches (2)</task>
+     </list>
+   </item>      
+   
+   <item id="7">
+     <day>Saturday</day>
+     <list>
+       <task>Repeat Report</task>
+     </list>
+   </item>  
+ 
+ </items>
